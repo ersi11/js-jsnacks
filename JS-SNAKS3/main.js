@@ -1,5 +1,6 @@
 
 
+/*
 let numeroDaInserire1 = parseInt(prompt("inserisci un numero"));
 let numeroDaInserire2 = parseInt(prompt("inserisci un numero"));
 let numeroDaInserire3 = parseInt(prompt("inserisci un numero"));
@@ -19,4 +20,22 @@ alert("la somma è" + sommaNumeriInseriti)
 
     console.log(sommaNumeriInseriti);
 
+    let risultato = ["1"];
 
+*/
+
+
+let sommaNumeriTotale = 0;
+
+
+for ( let i = 1; i <= 10; i++){
+    let numeroDaInserire = parseInt(prompt("inserisci un numero"));
+    sommaNumeriTotale = numeroDaInserire + sommaNumeriTotale;
+    console.log(sommaNumeriTotale);
+}
+
+
+
+
+
+ 
